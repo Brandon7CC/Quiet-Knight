@@ -1,2 +1,12 @@
 .DS_STORE
 *.vs*
+*.vcxproj.user
+*.vcxproj.filters
+*.vcxproj
+*.pdb
+*.idb
+*.tlog
+*.log
+*.obj
+*.sln
+*.ilk
