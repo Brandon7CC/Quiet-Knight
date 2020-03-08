@@ -7,7 +7,7 @@
 struct socket_address_in {
 	short socket_family; // AF_INET
 	unsigned short socket_port;
-	struct socket_address socket_in_address;
+	struct address socket_in_address;
 	char socket_zero[8];
 };
 
@@ -21,8 +21,8 @@ typedef struct address {
 			unsigned short s_w1, s_w2;
 		} S_un_w;
 
-		unsigned long S_address;
-	} S_un;
+		unsigned long s_address;
+	} s_un;
 } IN_ADDR, *PIN_ADDR, FAR *LPIN_ADDR;
 
 struct socket_address {
