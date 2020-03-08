@@ -2,11 +2,15 @@
 *.vs*
 *.vcxproj.user
 *.vcxproj.filters
-*.vcxproj
 *.pdb
 *.idb
 *.tlog
 *.log
 *.obj
-*.sln
 *.ilk
+*.exe
+*.dat
+*.prp
+*.lock~
+*.lock
+*.gpr
