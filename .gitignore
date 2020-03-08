@@ -10,3 +10,9 @@
 *.obj
 *.sln
 *.ilk
+*.exe
+*.dat
+*.prp
+*.lock~
+*.lock
+*.gpr
