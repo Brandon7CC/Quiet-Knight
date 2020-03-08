@@ -1,0 +1,1 @@
+This folder is used to hold potential CNE (Computer Network Exploitation) targets.
