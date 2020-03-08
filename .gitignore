@@ -2,7 +2,6 @@
 *.vs*
 *.vcxproj.user
 *.vcxproj.filters
-*.vcxproj
 *.pdb
 *.idb
 *.tlog
