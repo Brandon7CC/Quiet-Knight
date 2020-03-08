@@ -23,7 +23,7 @@ typedef struct address {
 
 		unsigned long S_address;
 	} S_un;
-} IN_ADDR, *PIN_ADDR, FAR* LPIN_ADDR;
+} IN_ADDR, *PIN_ADDR, FAR *LPIN_ADDR;
 
 struct socket_address {
 	unsigned short sa_family;  // Address family, AF_xxx
