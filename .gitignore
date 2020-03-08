@@ -8,7 +8,6 @@
 *.tlog
 *.log
 *.obj
-*.sln
 *.ilk
 *.exe
 *.dat
