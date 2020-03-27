@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include<winsock2.h>
+#include <winsock2.h>
 #include "implant.h"
 
 #pragma comment(lib,"ws2_32.lib") //Winsock Library
@@ -12,7 +12,7 @@ int main() {
 
 	printf("Initialising Winsock...\n");
 	if (WSAStartup(MAKEWORD(2, 2), &wsa) != 0)
-	{
+	{	
 		printf("Failed. Error Code : %d", WSAGetLastError());
 		return 1;
 	}
