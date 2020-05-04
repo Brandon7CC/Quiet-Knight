@@ -23,4 +23,4 @@ if __name__ == "__main__":
 
     while True:
         (clent_socket, client_ip) = server_socket.accept()
-        print("New Connection: " + client_ip)
+        print("New Connection: " + str(client_ip))
