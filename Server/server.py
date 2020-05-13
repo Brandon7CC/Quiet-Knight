@@ -10,6 +10,15 @@ import threading
 import sys
 import time
 
+from client import Client
+
+connections = []
+
+
+def read_from_connection(self):
+    pass
+
+
 if __name__ == "__main__":
     # Server parameters:
     # Local host address
@@ -22,5 +31,6 @@ if __name__ == "__main__":
     server_socket.listen()
 
     while True:
-        (clent_socket, client_ip) = server_socket.accept()
+        client_socket, client_ip = server_socket.accept()
+        connections.append(Client(client_socket, client_ip))
         print("New Connection: " + str(client_ip))
